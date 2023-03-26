@@ -1,0 +1,61 @@
+.head{
+    margin-left: 40%;
+    font-size: 50px;
+    font-weight: 100;
+    font-style: normal;
+}
+.hrline{
+    margin-top: 10;
+    border: 1px solid coral;
+}
+.pic{  
+    margin-left: auto;
+    margin-top: 10;
+    width: 20px;
+    height: 20px;
+
+}
+.pic1{  
+    margin-left: 40%;
+    margin-top: 10;
+    width: 20px;
+    height: 20px;
+
+}
+.mard{
+    margin: 10;
+}
+.flf{
+    margin-left: auto;
+    font-size: 20px;
+}
+.data{
+   
+    margin-top: 10;
+    margin-left: 40%;  
+}
+.dle{
+
+    margin-top: 0%;
+    margin-left: 20;
+}
+.dataH{
+    font-size: 20px;
+    margin-top: 10;
+    margin-left: 40%;
+}
+.mar{
+    margin-top: 10;
+    margin-left: 40%;
+}
+.sk{
+    margin-top: 10;
+    margin-left: 40%;
+    color: blue;
+}
+.skk{
+    color: coral;
+}
+.sp{
+    margin-top: 30;
+}
