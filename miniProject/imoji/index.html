@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple_Emoji</title>
+    <style>
+        .emoji{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50%;
+            border: 4pxn solid black;
+            border-radius: 50%;
+            margin: auto;
+        }
+
+        .emoji::before,
+        .emoji::after{
+            content: "";
+            position: absolute;
+            top: 30%;
+            width: 15px;
+            height: 15px;
+            background: black;
+            border-radius: 50%;
+        }
+
+        .emoji::before{
+            left: 25%;
+        }
+        .emoji::after{
+            right: 25%;
+        }
+
+        .mouth{
+            position: relative;
+            width: 50px;
+            height: 10px;
+            border-radius: 50%;
+            border-bottom: 20px solid black;
+            top: 50%;
+            left: 25%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Emoji </h1>
+    <div class="emoji">
+        <div class="mouth"></div>
+    </div>
+</body>
+</html>
